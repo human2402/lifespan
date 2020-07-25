@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1d1d1d;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6em;
+    font-size: 16px;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+#contact {
+    display: flex;
+    justify-content: space-around;
+    padding: 60px 0 0 0;
+    list-style-type: none;
+}
+
+#contact a {
+    margin: 0 0 0 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.twitter {
+    color: #1DA1F2;
+}
+
+#ig2 {
+    color: #9B36B5;
+}
+
+#ig1 {
+    margin: 0;
+    color: #9B36B5;
+}
+
+#logo {
+    background-image: linear-gradient(35deg, #5c7aff, #bf00ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    font-size: 40px;
+    padding: 60px 0 15px 0;
+}
+
+#infoMain {
+    padding: 50px 0 0 0;
+    font-size: 30px;
+    line-height: 1.2em;
+    font-size: 40px;
+}
+
+button {
+    padding: 12px;
+    background-color: #5c7aff;
+    border: #5c7aff 1px solid;
+    border-radius: 5px;
+    color: white;
+    margin: 10px;
+    font-size: 14px;
+}
+
+.interactPad {
+    color: black;
+    text-align: center;
+    background-color: white;
+    padding: 25px 0;
+    justify-content: space-around ;
+    margin: 50px 0 0 0;
+}
+
+.interactPad p {
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+.interactPad input {
+    margin: 10px;
+    padding: 10px;
+    border: #5c7aff 1px solid;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+#inputPad {
+    justify-content: space-around;
+}
+
+#typeHereP {
+    font-size: 23px;
+    margin: 0 0 5px 0;
+}
+
+#timeOp {
+    font-size: 13px;
+    margin: 3px;
+}
+
+#curDate {
+    font-size: 13px;
+}
+
+#finalResult {  
+    padding: 35px 0 0 0;
+}
+
+#youHaveLivedDiv {
+    font-size: 38px;
+    background-image: linear-gradient(130deg, #5c7aff, #bf00ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    line-height: 1.6em;
+}
+
+#yearMonthDaysDiv, #hoursMinsDiv {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-size: 30px;
+    line-height: normal;
+}
+
+#yearMonthDaysDiv li, #hoursMinsDiv li {
+    margin: 20px 25px 20px 35px;
+}
+
+footer {
+    padding: 150px 0 50px 0;
+    font-size: 13px;
+    line-height: 1em;
+    
+}
+
+footer div {
+    padding: 0 0 20px 0;
+}
+
+#result {
+    background-color: #333;
+
+    border-radius: 10px;
+    padding: 18px;
+}
+
+@media (max-width: 600px ) {
+    header {
+        display: initial;  
+    }
+    
+    #contact {
+        padding: 30px 0 0 0;
+        justify-content: start;
+    }
+
+    #contact  a {
+        margin: 0 15px 0 0;
+    }
+
+    #infoMain {
+        padding-top: 30px;
+    }
+
+    #youHaveLivedP {
+        font-size: 30px;
+    }
+} 
+
+@media (min-width: 1250px ) {
+    .container {
+        width: 70%;
+    }
+
+    #infoMain {
+        font-size: 50px;
+        padding: 70px 0 20px 0;
+    }
+}
+
+/*.or {
+    list-style-type: none;
+    margin: 20 5px;
+}*/
